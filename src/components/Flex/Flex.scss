@@ -1,0 +1,38 @@
+.container {
+	display: flex;
+	background-color: #eee;
+	padding: 20px;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	height: 400px;
+	align-content: center;
+	white-space: wrap;
+	/* min-width: 0;*/
+	overflow: auto;
+}
+
+.item {
+	background-color: #f1425d;
+	padding: 30px;
+	margin: 10px;
+	color: #fff;
+	font-size: 40px;
+}
+
+.n2 {
+	flex: 0 1 300px;
+}
+
+.n3 {
+	order: 1;
+	align-self: flex-end;
+	flex: 1;
+}
+
+.n4 {
+	align-self: flex-start;
+}
+
+.n5 {
+}

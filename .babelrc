@@ -1,0 +1,21 @@
+{
+	"presets": ["env", "react"],
+	"plugins": [
+		[
+			"react-css-modules",
+			{
+				"handleMissingStyleName": "warn",
+				"filetypes": {
+					".scss": {
+						"syntax": "postcss-scss"
+					}
+				},
+				"exclude": "node_modules"
+			}
+		],
+		"react-hot-loader/babel",
+		"transform-class-properties",
+		"transform-object-rest-spread",
+		"transform-async-to-generator"
+	]
+}
